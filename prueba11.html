@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- la etiqueta tabl se utiliza para definir tablas HTML . todo el contenido de la tabl , incluidas lsa filas y celdas , se coloca adentro de esta etiqueta-->
+    <!--- la etiqueta tr se utiliza para definir una fila en una tabla . cada fila puede contener una o mas celdas , que se definen utilizando las etiquetas td ( para celdas de datos ) o th (para celdas de encabezado)-->
+    <!--- la etiqueta td deine una celda de datos dentro de una fila .cada etiqueta td representa una columna en la tabla-->
+    <!--- la etiqueta th define una celda de encabezado dentro de una fila cada etiqueta th representa un encabezado de columna en la tabla-->
+
+    <table border="1">
+      <tr>
+        <td>encabezado 1</td>
+        <td>encabezado 2</td>
+        <td>encabezado 3</td>
+      </tr>
+      <tr>
+        <td>dato 1</td>
+        <td>dato 2</td>
+        <td>dato 3</td>
+      </tr>
+      <tr>
+        <td>dato 4</td>
+        <td>dato 5</td>
+        <td>dato 6</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <caption>
+        paises y capitales
+      </caption>
+      <tr>
+        <th>pais</th>
+        <th>capital</th>
+      </tr>
+      <tr>
+        <td>españa</td>
+        <td>madrid</td>
+      </tr>
+      <tr>
+        <td>francia</td>
+        <td>paris</td>
+      </tr>
+      <tr>
+        <td>italia</td>
+        <td>roma</td>
+      </tr>
+    </table>
+
+    <table border="1"">
+      <tr>
+        <th colspan="4">mundial de futbol</th>
+      </tr>
+      <tr>
+        <td rowspan="3">paises con mayoria de goles</td>
+        <td>brasil 2</td>
+        <td>230</td>
+      </tr>
+      <tr>
+        <td>alemania</td>
+        <td>180</td>
+      </tr>
+      <tr>
+        <td>argentina</td>
+        <td>150</td>
+      </tr>
+    </table>
+  </body>
+</html>
