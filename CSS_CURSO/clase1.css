@@ -1,0 +1,68 @@
+/*llamar a un elemento por su ID*/
+#titulo-principal {
+  color: blue;
+  font-size: 30px;
+}
+
+/*llamar a un elemento por su clase*/
+
+.subtitulo {
+  color: green;
+  font-size: 30px;
+}
+
+/*llamar a un elemento por su etiqueta*/
+h2 {
+  color: red;
+  font-size: 30px;
+}
+
+li {
+  color: #000;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: square;
+}
+
+.faltante {
+  color: red;
+}
+
+.ingrediente {
+  color: green;
+}
+
+#ingrediente-importante {
+  color: teal;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+p {
+  color: blueviolet;
+  background-color: aquamarine;
+  font: bold;
+  font-family: "Times New Roman", Times, serif;
+  display: flow-root;
+  width: 300px;
+  height: 100;
+  x: calc(50px + 100);
+  y: calc(50px + 100);
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: solid;
+  overflow: visible;
+}
+
+/*
+<ul class="receta" id="receta pan">
+      <il class="ingredientes">levadura</il>
+      <il class="ingredientes">sal</il>
+      <il class="ingredientes">azucar</il>
+      <il class="ingredientes">harina</il>
+      <il class="ingredientes">miel</il>
+      <il class="faltantes">polvo de hornear </il>
+    </ul>
+*/
