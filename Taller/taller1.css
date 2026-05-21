@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #f4f6f9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  max-width: 600px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-header h1 {
+  color: #2b3a4a;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.main-header p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #555555;
+  text-align: left;
+}
+
+.content-section h2 {
+  color: #f37023;
+  font-size: 1.35rem;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #e05345;
+  font-weight: 600;
+}
+
+ul.unstyled-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0 0 20px 0;
+}
+
+ul.unstyled-list li,
+ol.styled-list li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+ol.styled-list {
+  padding-left: 20px;
+  margin: 0 0 20px 0;
+}
+
+.register-form {
+  margin-top: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  color: #333;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.register-form input:focus {
+  outline: none;
+  border-color: #3498db;
+  background-color: #fff;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 14px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+}
+
+.btn-submit:hover {
+  background-color: #2980b9;
+}
